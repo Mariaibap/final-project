@@ -1,0 +1,133 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+p{
+  font-family: 'Arial', monospace;
+}
+li{
+  font-family: 'Arial', monospace;
+  
+}
+.mt-auto, .my-auto {
+  margin-top: auto!important;
+}
+.footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+}
+.jumbotron {
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  margin-bottom: 0;
+  background-image: url(getfithome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+}
+.jumbotron-grey{
+  background-image: none; 
+  background-color: #b6bcc1;
+}
+.jumbotron h1{
+  color: #fff;
+}
+.jumbotron p{
+  color: #fff;
+}
+
+.pbutton{
+  color: #fff;
+  background-color: transparent;
+  border: solid 2px white;
+}
+.pbutton:hover{
+  color: #fff;
+  background-color: #6c757d;
+  border: solid 2px #6c757d;
+}
+
+.pbutton:only-child{
+  color: #fff;
+  background-color: #6c757d;
+  border: solid 2px #6c757d;
+}
+.featurette-heading{
+  margin-top: 10%;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+  
+  }
+  .jumbotron-mod {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+    }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.title1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.title2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Ingredients {
+  font-weight: bold;
+}
+
+.lead{
+  text-align: center;
+  font-size: medium;
+}
+
+.description{
+  text-align: justify;
+}
+
+.card-text{
+  text-align: justify;
+}
